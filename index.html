@@ -5,20 +5,98 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test Website</title>
+    <title>Interests</title>
+    <style>
+        body {
+            background-color: #89CFF0;
+        }
+        
+        #centerBox {
+            border-width: 5px;
+            border-style: solid;
+            border-color: #333333;
+            border-radius: 10px;
+            background-color: lightblue;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 50px;
+            font-family: "Times New Roman MS";
+        }
+
+        h2 {
+            text-align: cleft;
+        }
+
+        .blogBox {
+            margin: 20px;
+            padding: 20px;
+            border: 2px solid black;
+            border-radius: 10px;
+            background-color: skyblue;
+            font-family: "Times New Roman MS";
+            overflow: auto;
+            box-shadow: #333333 5px 0px 0px 0px;
+        }
+
+        .blogBox p {
+            text-align: justify;
+        }
+
+        .blogBox img {
+            float: left;
+            max-width: 500px;
+        }
+
+        @media screen and (max-width: 450px) {
+            .bloxBox img {
+                float: none;
+                max-width: none;
+                width: 100%;
+            }
+        }
+        div {
+            border: 3px black solid;
+            border-radius: 10px;
+            padding: 0px 5px 0px 5px;
+        }
+    </style>
 </head>
 
 <body>
-    <p>Hello! How are you today?</p>
-    <p>I was only attacked by <b>two</b> ninja clans this morning.</p>
-    <p><a href="http://192.168.10.69:420/tutd?thumb=up">Thumbs Up</a></p>
-    <p><a href="http://192.168.10.69:420/tutd?thumb=down">Thumbs Down</a></p>
-    <p><a href="http://192.168.10.69:420/tutd?thumb=oops">Remove</a></p>
-    <p><a href="http://192.168.10.69:420/tutd?thumb=wiggle">Wiggle</a></p>
-    <ul>
-        <li> <a href="about.html">About Page</a> </li>
-        <li> <a href="gamefiles/game.html">My Game</a> </li>
-    </ul>
+    <div id="centerBox">
+      
+        <h1>Interests</h1>
+        <div>
+            <ul>
+            <li>
+                <a href="C:\Users\lgemmill\OneDrive - York County School of Technology\Computer Programming 2022-23\Test Site\about.html">Intro Page</a>
+            </li>
+            <li>
+                <a
+                    href="file:///C:/Users/lgemmill/OneDrive%20-%20York%20County%20School%20of%20Technology/Computer%20Programming%202022-23/Test%20Site/index.html">Interests</a>
+            </li>
+            <li>
+                <a
+                    href="file:///C:/Users/lgemmill/OneDrive%20-%20York%20County%20School%20of%20Technology/Computer%20Programming%202022-23/Test%20Site/Programming_Final.html">RPG
+                    Maker Game</a>
+            </li>
+
+        </ul>
+    </div>
+        <ul>
+
+        </ul>
+        <div class="blogBox">
+            <h2>About Me</h2>
+            <p>Outside of school, I like to play games and play sports. Even though I don't play for a team, I still
+                enjoy playing with friends. I play various games such as Rocket League, Minecraft, Beatsaber, Rec Room,
+                and many more! Inside of school, I try to stay a straight A student. I'd say my favorite shop out of the IT rotation is probably Hardware</p>
+                <img src="C:\Users\lgemmill\OneDrive - York County School of Technology\Computer Programming 2022-23\Test Site\gamefiles\OIP.jpg"
+                width="330px">
+        </div>
+
 </body>
 
 </html>
